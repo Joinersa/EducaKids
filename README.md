@@ -15,7 +15,7 @@ O **Educa Kids** foi desenvolvido em 2015 durante a disciplina Projeto Integrado
 - Java
 
 ### Informações Técnicas
-- Compatibilidade: [![API](https://img.shields.io/badge/API-14%2B-green.svg?style=flat)](https://android-arsenal.com/api?level=14)
+- Compatibilidade:      [![API](https://img.shields.io/badge/API-14%2B-green.svg?style=flat)](https://android-arsenal.com/api?level=14)
 - Não requer nenhuma permissão
 
 ### Bibliotecas utilizadas
