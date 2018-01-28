@@ -1,15 +1,15 @@
-# Conta Elétrica
+# Educa Kids
 ![Image](https://github.com/Joinersa/ContaEletrica/blob/master/scrennshots/logo_small.png)
 
-Aplicativo que auxilia no gerenciamento de **contas de energia elétrica**. Ele apresenta uma estimativa de custo e consumo de uma lista aparelhos residenciais.
+Aplicativo educativo que auxilia no processo de aprendizagem do alfabeto português e de operações matemáticas simples. Esse utiliza métodos audivisuais para agregar conhecimento de forma agradável ao público infantil.
 
-**Aplicativo desenvolvido durante uma disciplina do curso de Sistemas de Informação da Universidade Federal do Pará (UFPA) do Campus de Cametá.**
+O **Educa Kids** foi desenvolvido em 2015 durante a disciplina Projeto Integrado I do curso de Sistemas de Informação da Universidade Federal do Pará (UFPA) Campus de Cametá. Projeto orientado pelo **Professor Doutor Fabricio Farias.**
 
 ### Funcionalidades
-- Calcula consumo em quilo watt hora (**kWh**)
-- Calcula custo em Reais (**R$**)
-- Gera histórico de custo e consumo mensal
-- Apresenta informações como **direitos**, **deveres**, **dicas** e **curiosidades** sobre assuntos relacionados à conta de energia
+- Game com letras do alfabeto
+- Game com operações matemáticas
+- Apresenta Ranking de acertos de operações matemáticas
+- Apresenta informações sobre o aplicativo
 
 ### Linguagem de Programação
 - Java
@@ -19,40 +19,39 @@ Aplicativo que auxilia no gerenciamento de **contas de energia elétrica**. Ele 
 - Não requer nenhuma permissão
 
 ### Bibliotecas utilizadas
-- [Android View Animations](https://github.com/daimajia/AndroidViewAnimations)
-- [Floating Action Button Library for Android](https://github.com/Scalified/fab)
-- [MPAndroidChart](https://github.com/PhilJay/MPAndroidChart)
-- [Material Tap Target Prompt](https://github.com/sjwall/MaterialTapTargetPrompt)
-- [Nine Old Androids](https://github.com/JakeWharton/NineOldAndroids)
-
-# Arquivo de instalação APK
-**Baixe** e instale o aplicativo **Conta Elétrica** **[AQUI](https://drive.google.com/open?id=1XiqDzALE5Bq3SqdxRhMmaFcFAW1TKkQo)**
+- Nenhuma
 
 # Loja
-## Amazon AppStore
+## Google Play Store
 
-Para quem possue o aplicativo da **Amazon AppStore**, o **Conta Elétrica** pode ser baixado em [Amazon AppStore](https://www.amazon.com.br/dp/B079CQQL2N/ref=sr_1_7?s=mobile-apps&ie=UTF8&qid=1517147181&sr=1-7&keywords=Conta)
-
-[![Image](https://github.com/Joinersa/ContaEletrica/blob/master/scrennshots/ic_amazon.png)](https://www.amazon.com.br/dp/B079CQQL2N/ref=sr_1_7?s=mobile-apps&ie=UTF8&qid=1517147181&sr=1-7&keywords=Conta)
+O aplicativo pode ser baixado em:
+[![Image](https://camo.githubusercontent.com/dc1ffe0e4d25c2c28a69423c3c78000ef7ee96bf/68747470733a2f2f646576656c6f7065722e616e64726f69642e636f6d2f696d616765732f6272616e642f656e5f6170705f7267625f776f5f34352e706e67)](https://play.google.com/store/apps/details?id=br.com.projetoslabex.educakids&hl=pt_BR)
 
 # Screenshots
 ![Image](https://github.com/Joinersa/ContaEletrica/blob/master/scrennshots/scrennshot_1.png)
-![Image](https://github.com/Joinersa/ContaEletrica/blob/master/scrennshots/scrennshot_2.png)
 
 
-# Fonte de informações utilizadas
-- [ANEEL - Agência Nacional de Energia Elétrica](http://www.aneel.gov.br/)
-- [ABRADEE - Associação Brasileira de Distribuidores de Enegia Elétrica](http://www.abradee.com.br/)
-- [CPFL](http://www.cpfl.com.br/)
+# Imagens utilizadas
+- Letras do alfabeto: [IconArchive](http://www.iconarchive.com/)
+- Emojis: [XXXxx](http://..)
 
 
 # Desenvolvido por
 
- Joiner Sá
-* **E-mail**: <joinersa@hotmail.com>
-* [Facebook](https://www.facebook.com/joiner.sa)
-* [WhatsApp (+55 91 92228133)](https://api.whatsapp.com/send?phone=+559192228133)
-* [Linkdin](https://www.linkedin.com/in/joiner-s%C3%A1-367342b7/)
+*Autor 1: **Joiner Sá**
+
+	* **E-mail**: <joinersa@hotmail.com>
+	* [Facebook](https://www.facebook.com/joiner.sa)
+	* [WhatsApp (+55 91 92228133)](https://api.whatsapp.com/send?phone=+559192228133)
+	* [Linkdin](https://www.linkedin.com/in/joiner-s%C3%A1-367342b7/)
+
+* Autor 2: **Eliezer Miranda**
+
+* Autor 3: **Anderson Almeida**
+
+* Autor 4: **Enio Monteiro**
+
+
 
 # License
 
