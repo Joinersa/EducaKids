@@ -43,7 +43,7 @@ O aplicativo pode ser baixado em:
    * **E-mail**: <joinersa@hotmail.com>
    * [Facebook](https://www.facebook.com/joiner.sa)
    * [WhatsApp (+55 91 92228133)](https://api.whatsapp.com/send?phone=+559192228133)
-   * [Linkdin](https://www.linkedin.com/in/joiner-s%C3%A1-367342b7/)
+   * [Linkedin](https://www.linkedin.com/in/joiner-s%C3%A1-367342b7/)
 
 * Autor 2: **Eliezer Miranda**
 
