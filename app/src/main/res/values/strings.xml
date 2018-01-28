@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Educa Kids</string>
+    <string name="action_sobre">Sobre</string>
+    <string name="title_activity_letras">Letras</string>
+    <string name="title_activity_matematica">Matemática</string>
+    <string name="label_ranking">RANKING</string>
+    <string name="label_acertos">ACERTOS</string>
+    <string name="action_ranking">Ranking</string>
+</resources>

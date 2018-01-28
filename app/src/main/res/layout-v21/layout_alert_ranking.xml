@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:background="@android:color/holo_green_light"
+        android:orientation="horizontal">
+
+        <!--ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/medal"/-->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_horizontal"
+            android:textColor="@color/colorNomePlayer"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="Ranking de acertos"/>
+    </LinearLayout>
+
+    <!--View
+        android:layout_height="1dp"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:background="@color/colorPrimaryDark"/-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"
+                android:text="Nome:"/>
+
+            <EditText
+                android:id="@+id/et_nome_player_alert"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:textSize="20sp"
+                android:maxLength="14"
+                android:textColor="@android:color/holo_red_dark"
+                android:hint="nome do jogador"
+                android:text="teste"/>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"
+                android:text="Acertos:"/>
+
+            <TextView
+                android:id="@+id/tv_pontos_alert"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="123"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="4dp">
+
+        <Button
+            android:id="@+id/bt_alert_cancelar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:textColor="@color/colorPontuacao"
+            android:backgroundTint="@android:color/holo_green_light"
+            android:text="Cancelar" />
+
+        <Button
+            android:id="@+id/bt_alert_salvar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:textColor="@color/colorPontuacao"
+            android:backgroundTint="@android:color/holo_green_light"
+            android:text="Salvar"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

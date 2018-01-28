@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo_01"
+    android:fitsSystemWindows="true"
+    android:splitMotionEvents="false"
+    tools:context=".activities.LetrasActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/tb_letras"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            android:layout_weight="1" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/fab_audio"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/ic_speaker"
+        app:borderWidth="6dp"
+        app:elevation="6dp"
+        android:clickable="false"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:splitMotionEvents="false">
+
+
+            <ImageView
+                android:id="@+id/bt_letra_3"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/bt_letra_1"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/c"
+                android:textColor="@android:color/white"
+                android:textSize="70sp"
+                android:textStyle="bold"
+                android:clickable="false"/>
+
+
+            <ImageView
+                android:id="@+id/bt_letra_4"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_alignLeft="@+id/bt_letra_2"
+                android:layout_alignStart="@+id/bt_letra_2"
+                android:layout_alignTop="@+id/bt_letra_3"
+                android:background="@drawable/d"
+                android:textColor="@android:color/white"
+                android:textSize="70sp"
+                android:textStyle="bold"
+                android:clickable="false"/>
+
+
+            <ImageView
+                android:id="@+id/bt_letra_2"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/b"
+                android:textColor="@android:color/white"
+                android:textSize="70sp"
+                android:textStyle="bold"
+                android:clickable="false"/>
+
+            <ImageView
+                android:id="@+id/bt_letra_1"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:background="@drawable/a"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:textSize="70sp"
+                android:textStyle="bold"
+                android:clickable="false"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+
+            <!--ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/e" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt2"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/e" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt3"
+                android:background="@drawable/e"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/bt1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt4"
+                android:background="@drawable/e"
+                android:layout_alignTop="@+id/bt3"
+                android:layout_alignLeft="@+id/bt2"
+                android:layout_alignStart="@+id/bt2" /-->
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/iv_carinha"
+            android:layout_width="140dp"
+            android:layout_height="145dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/vazio_01" />
+
+        <!--ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bt_audio"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/layout_botao_audio" /-->
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

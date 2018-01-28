@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="15dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/imageView3"
+                android:background="@drawable/logo_splash"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="144dp"
+                android:layout_height="30dp"
+                android:src="@drawable/nome_educakids"
+                android:layout_gravity="center_horizontal" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="13sp"
+                android:text="Versão 1.2"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Aplicativo educativo que auxilia no processo de aprendizagem do alfabeto português e de operações matemáticas simples. Esse utiliza métodos audivisuais para agregar conhecimento de forma agradável ao público infantil.\n\nO Educa Kids foi desenvolvido durante a disciplina Projeto Integrado I do curso de Sistemas de Informação da Universidade Federal do Pará Campus Cametá."
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:textColor="@color/colorNomeOrientadoresDesenvolvedores"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTituloOrientadorDesenvolvedor"
+                android:textSize="18sp"
+                android:text="Orientadores"
+                android:textStyle="bold"
+                android:id="@+id/textView3" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorNomeOrientadoresDesenvolvedores"
+                android:text="Prof. Dr. Fabrício Farias\nProf.ª Ms. Isadora Mendes"
+                android:id="@+id/textView4" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTituloOrientadorDesenvolvedor"
+                android:textSize="18sp"
+                android:layout_marginTop="16dp"
+                android:text="Desenvolvedores"
+                android:textStyle="bold"
+                android:id="@+id/textView5" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorNomeOrientadoresDesenvolvedores"
+                android:text="Anderson Almeida\nEliezer Miranda\nEnio Monteiro\nJoiner Sá"
+                android:id="@+id/textView6" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:id="@+id/img_labex"
+                android:src="@drawable/ic_labex"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
