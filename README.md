@@ -4,6 +4,7 @@
 Aplicativo educativo que auxilia no processo de aprendizagem do alfabeto português e de operações matemáticas simples. Esse utiliza métodos audivisuais para agregar conhecimento de forma agradável ao público infantil.
 
 O **Educa Kids** foi desenvolvido em 2015 durante a disciplina Projeto Integrado I do curso de Sistemas de Informação da Universidade Federal do Pará (UFPA) Campus de Cametá.
+
 Projeto orientado por: Prof. Dr. Fabricio Farias e Profª. MSc Isadora Mendes.
 
 ### Funcionalidades
