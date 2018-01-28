@@ -31,9 +31,9 @@ O aplicativo pode ser baixado em:
 ![Image](https://github.com/Joinersa/EducaKids/blob/master/scrennshots/diag_atividades.png)
 
 # Screenshots
-![Image](https://github.com/Joinersa/EducaKids/blob/master/scrennshots/figura 1.png)
+![Image](https://github.com/Joinersa/EducaKids/blob/master/scrennshots/figura_1.png)
 
-![Image](https://github.com/Joinersa/EducaKids/blob/master/scrennshots/figura 2.png)
+![Image](https://github.com/Joinersa/EducaKids/blob/master/scrennshots/figura_2.png)
 
 
 # Imagens utilizadas
