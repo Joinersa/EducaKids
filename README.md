@@ -62,7 +62,7 @@ O aplicativo pode ser baixado em:
 
 
 
-# License
+# Licença
 
     Copyright 2018 Joiner Sá
 
