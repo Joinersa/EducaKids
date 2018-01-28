@@ -42,7 +42,7 @@ O aplicativo pode ser baixado em:
 
 # Imagens utilizadas
 - Letras do alfabeto: [IconArchive](http://www.iconarchive.com/)
-- Emojis: [XXXxx](http://..)
+- Emojis: [Emoji Island](https://emojiisland.com/)
 
 
 # Desenvolvido por
