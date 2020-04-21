@@ -31,9 +31,6 @@ O aplicativo pode ser baixado em:
 
 **Powered by Farias - [Labex](http://www.projetoslabex.com.br)**
 
-# Diagrama de Atividades
-![Image](https://github.com/Joinersa/EducaKids/blob/master/scrennshots/diag_atividades.png)
-
 # Screenshots
 ![Image](https://github.com/Joinersa/EducaKids/blob/master/scrennshots/figura_1.png)
 
@@ -48,11 +45,6 @@ O aplicativo pode ser baixado em:
 # Desenvolvido por
 
 * Autor 1: **Joiner Sá**
-
-   * **E-mail**: <joinersa@hotmail.com>
-   * [Facebook](https://www.facebook.com/joiner.sa)
-   * [WhatsApp (+55 91 92228133)](https://api.whatsapp.com/send?phone=+559192228133)
-   * [LinkedIn](https://www.linkedin.com/in/joiner-s%C3%A1-367342b7/)
 
 * Autor 2: **Eliezer Miranda**
 
